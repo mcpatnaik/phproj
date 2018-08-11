@@ -10,8 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <a href="exam/">Exam</a>
         <?php
-        phpinfo();
+        
         ?>
     </body>
 </html>
