@@ -1,38 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Online Examination</title>
-<!--
-Strategy Template
-http://www.templatemo.com/tm-489-strategy
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="css/opensans.css">  <!-- Local Google web font "Open Sans" -->
-    <!-- <link rel="style sheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/hero-slider-style.css">                                  <!-- Hero slider style -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+        <title>Online Examination</title>
+        <!--
+        Strategy Template
+        http://www.templatemo.com/tm-489-strategy
+        -->
+        <!-- load stylesheets -->
+        <link rel="stylesheet" href="css/opensans.css">  <!-- Local Google web font "Open Sans" -->
+        <!-- <link rel="style sheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  Google web font "Open Sans" -->
+        <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+        <link rel="stylesheet" href="herocss/reset.css"> <!-- hero original css -->
+        <link rel="stylesheet" href="herocss/style.css"> <!-- hero original css -->
+        <link rel="stylesheet" href="css/hero-slider-style.css">                                  <!-- Hero slider style -->
+        <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
-</head>
+    </head>
 
     <body>
+        <section class="cd-hero js-cd-hero js-cd-autoplay">
+            <ul class="cd-hero__slider">
+                <li class="cd-hero__slide cd-hero__slide--selected js-cd-slide">
+                    <div class="cd-hero__content cd-hero__content--full-width">
+                        <h2>Hero slider</h2>
+                        <p>A simple, responsive slideshow in CSS &amp; JavaScript.</p>
+                        <a href="http://codyhouse.co/gem/hero-slider/" class="cd-hero__btn">Article &amp; Download</a>
+                    </div> <!-- .cd-hero__content -->
+                </li>
+
+                <li class="cd-hero__slide js-cd-slide">
+                    <div class="cd-hero__content cd-hero__content--half-width">
+                        <h2>Slide title here</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+                        <a href="#0" class="cd-hero__btn">Start</a>
+                        <a href="#0" class="cd-hero__btn cd-hero__btn--secondary">Learn More</a>
+                    </div> <!-- .cd-hero__content -->
+
+                    <div class="cd-hero__content cd-hero__content--half-width cd-hero__content--img">
+                        <img src="assets/tech-1.jpg" alt="tech 1">
+                    </div> <!-- .cd-hero__content -->
+                </li>
+
+                <li class="cd-hero__slide js-cd-slide">
+                    <div class="cd-hero__content cd-hero__content--half-width cd-hero__content--img">
+                        <img src="assets/tech-2.jpg" alt="tech 2">
+                    </div> <!-- .cd-hero__content -->
+
+                    <div class="cd-hero__content cd-hero__content--half-width">
+                        <h2>Slide title here</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+                        <a href="#0" class="cd-hero__btn">Start</a>
+                        <a href="#0" class="cd-hero__btn cd-hero__btn--secondary">Learn More</a>
+                    </div> <!-- .cd-hero__content -->
+
+                </li>
+
+                <li class="cd-hero__slide cd-hero__slide--video js-cd-slide">
+                    <div class="cd-hero__content cd-hero__content--full-width">
+                        <h2>Slide title here</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+                        <a href="#0" class="cd-hero__btn">Learn more</a>
+                    </div> <!-- .cd-hero__content -->
+
+                    <div class="cd-hero__content cd-hero__content--bg-video js-cd-bg-video" data-video="assets/video/video">
+                        <!-- video element will be loaded using JavaScript -->
+                    </div> <!-- .cd-hero__content -->
+                </li>
+
+                <li class="cd-hero__slide js-cd-slide">
+                    <div class="cd-hero__content cd-hero__content--full-width">
+                        <h2>Slide title here</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+                        <a href="#0" class="cd-hero__btn">Start</a>
+                        <a href="#0" class="cd-hero__btn cd-hero__btn--secondary">Learn More</a>
+                    </div> <!-- .cd-hero__content -->
+                </li>
+            </ul> <!-- .cd-hero__slider -->
+
+            <div class="cd-hero__nav js-cd-nav">
+                <nav>
+                    <span class="cd-hero__marker cd-hero__marker--item-1 js-cd-marker"></span>
+
+                    <ul>
+                        <li class="cd-selected"><a href="#0">Intro</a></li>
+                        <li><a href="#0">Tech 1</a></li>
+                        <li><a href="#0">Tech 2</a></li>
+                        <li><a href="#0">Video</a></li>
+                        <li><a href="#0">Image</a></li>
+                    </ul>
+                </nav> 
+            </div> <!-- .cd-hero__nav -->
+        </section> <!-- .cd-hero -->
+
+
         <section class="cd-hero">
             <ul class="cd-hero-slider autoplay">  
-            <!-- 
-            	<ul class="cd-hero-slider autoplay"> for slider auto play 
-                <ul class="cd-hero-slider"> for disabled auto play
-            -->
+                <!-- 
+                    <ul class="cd-hero-slider autoplay"> for slider auto play 
+                    <ul class="cd-hero-slider"> for disabled auto play
+                -->
                 <li class="selected">
                     <div class="cd-full-width">
                         <div class="tm-slide-content-div">
@@ -42,9 +119,9 @@ http://www.templatemo.com/tm-489-strategy
                                 <p class="m-b-mid">Another Bootstrap 4.0 Website Template</p>
                                 <div class="form-group">
                                     <input name="search" type="text" class="form-control center-block tm-max-w-400" id="input1" placeholder="Type a keyword...">
-                              </div>                                
+                                </div>                                
                                 <button type="submit" class="cd-btn">Search</button>
-                                
+
                             </form>                            
                         </div>                        
                     </div> <!-- .cd-full-width -->
@@ -57,9 +134,9 @@ http://www.templatemo.com/tm-489-strategy
                                 <i class="fa fa-compass tm-slide-icon"></i>
                                 <h2 class="text-uppercase">Strategy</h2>
                                 <p>Using Hero Slider from Cody House. Donec mattis ipsum in erat viverra commodo. 
-                                Proin sapien lacus, euismod eget nisl.</p>                                            
+                                    Proin sapien lacus, euismod eget nisl.</p>                                            
                                 <a href="index.html#1" class="cd-btn">Explore</a>
-                                
+
                             </form>                           
                         </div>                        
                     </div> <!-- .cd-full-width -->
@@ -76,7 +153,7 @@ http://www.templatemo.com/tm-489-strategy
                                     <input type="text" class="form-control center-block tm-max-w-400" id="input3" placeholder="Enter your email...">
                                 </div>                                
                                 <button type="submit" class="cd-btn">Sign Up</button>
-                                
+
                             </form>                            
                         </div>                        
                     </div> <!-- .cd-full-width -->
@@ -86,7 +163,7 @@ http://www.templatemo.com/tm-489-strategy
             <div class="cd-slider-nav">
                 <nav>
                     <span class="cd-marker item-1"></span>
-                    
+
                     <ul>
                         <li class="selected"><a href="#0"></a></li>
                         <li><a href="#0"></a></li>
@@ -108,9 +185,9 @@ http://www.templatemo.com/tm-489-strategy
                     </div>                    
                 </div>
             </div>
-            
+
             <div class="row tm-media-row tm-flex-container-reverse">
-                
+
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tm-flex-child-2">
                     <img src="img/tm-img-320x320-2.jpg" alt="Image" class="img-fluid img-circle img-thumbnail tm-media-img">
                 </div>
@@ -146,11 +223,11 @@ http://www.templatemo.com/tm-489-strategy
                     </div>
                 </div>
                 <div class="row">                    
-                    
+
                     <div class="tm-plan-boxes-container">
-                        
+
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-table-col">
-                                
+
                             <table class="tm-plan">
                                 <thead>
                                     <tr>
@@ -176,7 +253,7 @@ http://www.templatemo.com/tm-489-strategy
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-table-col">
-                            
+
                             <table class="tm-plan">
                                 <thead>
                                     <tr>
@@ -228,7 +305,7 @@ http://www.templatemo.com/tm-489-strategy
                         </div>
 
                     </div> <!-- tm-plan-boxes-container -->
-            
+
                 </div>
             </div>            
         </section>
@@ -244,10 +321,10 @@ http://www.templatemo.com/tm-489-strategy
                 <div class="row">
                     <div class="col-xs-12">
                         <div id="tmCarousel" class="carousel slide tm-carousel" data-ride="carousel"> 
-                        <!-- 
-                        	Remove data-interval="false" to auto play
-                        	Add data-interval="false" to disable auto play
-                         -->
+                            <!-- 
+                                    Remove data-interval="false" to auto play
+                                    Add data-interval="false" to disable auto play
+                            -->
 
                             <ol class="carousel-indicators">
                                 <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
@@ -256,7 +333,7 @@ http://www.templatemo.com/tm-489-strategy
                             </ol>
 
                             <div class="carousel-inner" role="listbox">
-                            
+
                                 <div class="carousel-item active">
                                     <div class="carousel-content">
                                         <div>
@@ -285,7 +362,7 @@ http://www.templatemo.com/tm-489-strategy
                                 </div>
 
                             </div>
-                            
+
                         </div> 
                     </div>
                 </div>
@@ -303,7 +380,7 @@ http://www.templatemo.com/tm-489-strategy
                 </div>
                 <div class="row">
                     <form action="index.html" method="post" class="tm-contact-form">
-                        
+
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                             <div class="form-group">
                                 <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
@@ -342,8 +419,8 @@ http://www.templatemo.com/tm-489-strategy
                 <div class="row">
                     <footer class="col-xs-12 text-xs-center">
                         <p class="tm-text-white tm-copyright-text">Copyright &copy; 2016 Your Company 
-                        
-                        | Designed by <a rel="nofollow" href="http://www.google.com/+templatemo" target="_parent">Templatemo</a></p>
+
+                            | Designed by <a rel="nofollow" href="http://www.google.com/+templatemo" target="_parent">Templatemo</a></p>
                     </footer>
                 </div>
             </div>
@@ -355,53 +432,53 @@ http://www.templatemo.com/tm-489-strategy
         <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
         <script src="js/hero-slider-script.js"></script>            <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
         <script src="js/jquery.touchSwipe.min.js"></script>         <!-- http://labs.rampinteractive.co.uk/touchSwipe/demos/ -->
-        <script>     
-       
-            $(document).ready(function(){
+        <script>
+
+            $(document).ready(function () {
 
                 /* Auto play bootstrap carousel 
-                * http://stackoverflow.com/questions/13525258/twitter-bootstrap-carousel-autoplay-on-load
-                -----------------------------------------------------------------------------------------*/                
+                 * http://stackoverflow.com/questions/13525258/twitter-bootstrap-carousel-autoplay-on-load
+                 -----------------------------------------------------------------------------------------*/
                 $('.carousel').carousel({
-                  interval: 3000
+                    interval: 3000
                 })
 
                 /* Enable swiping carousel for tablets and mobile
                  * http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/
                  ---------------------------------------------------------------------------------*/
-                if($(window).width() <= 991) {
-                    $(".carousel-inner").swipe( {
+                if ($(window).width() <= 991) {
+                    $(".carousel-inner").swipe({
                         //Generic swipe handler for all directions
-                        swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                            $(this).parent().carousel('next'); 
+                        swipeLeft: function (event, direction, distance, duration, fingerCount) {
+                            $(this).parent().carousel('next');
                         },
-                        swipeRight: function() {
-                            $(this).parent().carousel('prev'); 
+                        swipeRight: function () {
+                            $(this).parent().carousel('prev');
                         },
                         //Default is 75px, set to 0 for demo so any distance triggers swipe
-                        threshold:0
+                        threshold: 0
                     });
-                }  
+                }
 
                 /* Handle window resize */
-                $(window).resize(function(){
-                    if($(window).width() <= 991) {
-                        $(".carousel-inner").swipe( {
+                $(window).resize(function () {
+                    if ($(window).width() <= 991) {
+                        $(".carousel-inner").swipe({
                             //Generic swipe handler for all directions
-                            swipeLeft:function(event, direction, distance, duration, fingerCount) {
-                                $(this).parent().carousel('next'); 
+                            swipeLeft: function (event, direction, distance, duration, fingerCount) {
+                                $(this).parent().carousel('next');
                             },
-                            swipeRight: function() {
-                                $(this).parent().carousel('prev'); 
+                            swipeRight: function () {
+                                $(this).parent().carousel('prev');
                             },
                             //Default is 75px, set to 0 for demo so any distance triggers swipe
-                            threshold:0
+                            threshold: 0
                         });
-                     }
-                });                             
+                    }
+                });
             });
 
         </script>             
-
-</body>
+        <script src="herojs/main.js"></script>
+    </body>
 </html>
